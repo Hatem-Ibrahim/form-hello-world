@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+/* ************************************************ */
+section {
+    background: url(../images/1280_720_391038994.jpg) no-repeat center center  ;
+    background-size: cover;
+}
+.overlay_section {
+    height: 625px;
+    background-color: #c84be78a;
+    position: relative;
+}
+.div_img {
+    width: 39%;
+    height: 550px;
+    background: url(../images/background_div.jpg) no-repeat center center  ;
+    background-size: cover;
+    position: absolute;
+    top: 35px;
+    left: 143px;
+    box-shadow: -5px 2px 15px 0px #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.overlay {
+    width: 39%;
+    height: 550px;
+    background-color: #4a23bed6;
+    position: absolute;
+    top: 35px;
+    left: 143px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: #EEE;
+}
+.overlay > h1 {
+    font-size: 100px;
+    position: absolute;
+    left: 50px;
+}
+.overlay >  :nth-child(2) {
+    width: 81%;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    position: absolute;
+    top: 330px;
+    left: 50px;
+}
+.overlay label {
+    position: absolute;
+    bottom: 120px;
+    left: 50px;
+}
+.div_icon {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_icon div {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+    height: 43px;
+}
+.div_facebook{
+    background-color: #2A69B9;
+    width: 85px;
+}
+.div_twitter {
+    background-color: #00a2ca;
+    width: 200px;
+}
+.div_twitter i {
+    margin-right: 10px;
+}
+.div_icon i {
+    color: #EEE;
+}
+/* ***********************start form******************* */
+form {
+    width: 40%;
+    height: 550px;
+    background-color: #FFF;
+    position: absolute;
+    top: 35px;
+    right: 143px;
+    box-shadow: 5px 2px 15px 0px #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+fieldset {
+    padding-left: 50px;
+    border: none;
+}
+form fieldset h1 {
+    font-size: 60px;
+}
+form fieldset > :nth-child(2) {
+    width: 80%;  
+}
+form a {
+    text-decoration: none;
+}
+form fieldset input {
+    width: 90%;
+    margin: 10px 0;
+    outline: none;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+form fieldset input:hover  {
+    text-align: left;
+}
+.div_check {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked::before  {
+    content: "";
+    background-color: #84D344;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor: pointer;
+}  
+.overlay_check i {
+    position: absolute;
+    top: 13px;
+    left: 2px;
+    font-size: 11px;
+    color: #fff;
+    cursor: pointer;
+}
+.div_check label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.div_check a {
+    position: absolute;
+    top: 9px;
+    right: 0; 
+}
+/* *********** */
+input[type="submit"] {
+    position: absolute;
+    right: 60px;
+    width: 110px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color:#84D344;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
